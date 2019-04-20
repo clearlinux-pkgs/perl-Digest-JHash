@@ -4,10 +4,10 @@
 #
 Name     : perl-Digest-JHash
 Version  : 0.10
-Release  : 9
+Release  : 10
 URL      : https://cpan.metacpan.org/authors/id/S/SH/SHLOMIF/Digest-JHash-0.10.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/S/SH/SHLOMIF/Digest-JHash-0.10.tar.gz
-Summary  : 'Perl extension for 32 bit Jenkins Hashing Algorithm'
+Summary  : Perl extension for 32 bit Jenkins Hashing Algorithm
 Group    : Development/Tools
 License  : Artistic-2.0
 Requires: perl-Digest-JHash-lib = %{version}-%{release}
@@ -25,6 +25,7 @@ Summary: dev components for the perl-Digest-JHash package.
 Group: Development
 Requires: perl-Digest-JHash-lib = %{version}-%{release}
 Provides: perl-Digest-JHash-devel = %{version}-%{release}
+Requires: perl-Digest-JHash = %{version}-%{release}
 
 %description dev
 dev components for the perl-Digest-JHash package.
