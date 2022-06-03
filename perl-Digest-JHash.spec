@@ -4,7 +4,7 @@
 #
 Name     : perl-Digest-JHash
 Version  : 0.10
-Release  : 22
+Release  : 23
 URL      : https://cpan.metacpan.org/authors/id/S/SH/SHLOMIF/Digest-JHash-0.10.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/S/SH/SHLOMIF/Digest-JHash-0.10.tar.gz
 Summary  : 'Perl extension for 32 bit Jenkins Hashing Algorithm'
@@ -98,5 +98,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/Digest/JHash.pm
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/auto/Digest/JHash/JHash.so
+/usr/lib/perl5/*
